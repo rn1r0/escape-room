@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escape Room NODE</title>
+  </head>
+  <body>
+    <h1>Escape Room Game</h1>
+    <p>Welcome to the Escape Room!</p>
+    <p>
+      You find yourself locked in a room. In order to escape, you need to find
+      the key in the room and open the door.
+    </p>
+    <p>
+      There's also a hole in the wall in the room. If you put your hand in the
+      hole, you die.
+    </p>
+    <p>What would you like to do?</p>
+    <form id="game-form">
+      <input
+        type="text"
+        id="game-input"
+        placeholder="Type your action here..."
+      />
+      <button type="submit" id="game-submit">Submit</button>
+    </form>
+    <p id="game-output"></p>
+    <script src="game.js"></script>
+  </body>
+</html>
